@@ -24,10 +24,12 @@ class LoginViewModel(
 
     fun updateUsername(username: String) {
         _uiState.value = _uiState.value.copy(username = username)
+        clearError()
     }
 
     fun updatePassword(password: String) {
         _uiState.value = _uiState.value.copy(password = password)
+        clearError()
     }
 
     fun login() {
