@@ -1,4 +1,4 @@
-package net.tallertechnologies.interview.login
+package net.tallertechnologies.interview.login.screen
 
 import java.io.Serializable
 
